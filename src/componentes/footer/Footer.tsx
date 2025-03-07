@@ -1,8 +1,4 @@
-import {
-  FacebookLogo,
-  InstagramLogo,
-  LinkedinLogo,
-} from "@phosphor-icons/react";
+import { GithubLogo, InstagramLogo, LinkedinLogo } from "@phosphor-icons/react";
 import { ReactNode, useContext } from "react";
 import { AuthContext } from "../../contexts/AuthContext";
 
@@ -21,19 +17,28 @@ function Footer() {
           <p className="text-lg">Acesse nossas redes sociais</p>
           <div className="flex gap-2">
             <a
-              href="https://www.linkedin.com/school/generationbrasil"
+              href="https://www.linkedin.com/in/yasmin-da-silva-pontes-011201165/"
               target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-700 transition-colors duration-300"
             >
-              <LinkedinLogo size={48} weight="bold" />
+              <LinkedinLogo size={30} weight="bold" />
             </a>
             <a
-              href="https://www.instagram.com/generationbrasil"
+              href="https://www.instagram.com/yasmin.ps_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-700 transition-colors duration-300"
+            >
+              <InstagramLogo size={30} weight="bold" />
+            </a>
+            <a
+              href="https://github.com/Yasminpontess"
+              rel="noopener noreferrer"
+              className="hover:text-blue-700 transition-colors duration-300"
               target="_blank"
             >
-              <InstagramLogo size={48} weight="bold" />
-            </a>
-            <a href="https://www.facebook.com/generationbrasil" target="_blank">
-              <FacebookLogo size={48} weight="bold" />
+              <GithubLogo size={30} weight="bold" />
             </a>
           </div>
         </div>

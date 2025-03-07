@@ -16,7 +16,7 @@ function CardTemas({ tema }: CardTemasProps) {
       <div className="flex">
         <Link
           to={`/editartema/${tema.id}`}
-          className="w-full text-slate-100 bg-	indigo-400 hover:bg-sky-400
+          className="w-full text-slate-900 bg-	indigo-400 hover:bg-sky-400
     flex items-center justify-center py-2"
         >
           <button>Editar</button>

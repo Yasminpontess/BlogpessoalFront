@@ -1,5 +1,5 @@
 .fundoLogin {
-  background-image: url("/src/assets/fotos/emoji.jpg");
+  background-image: url("src/assets/fotos/emoji.jpg");
   background-repeat: no-repeat;
   min-height: 100vh;
   width: 50%;
